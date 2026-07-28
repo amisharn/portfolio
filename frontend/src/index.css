@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #262626;
+  color: white;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: "Abramo";
+  src: url("./assets/fonts/Abramo-Script.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-abramo {
+  font-family: "Abramo", serif;
+}

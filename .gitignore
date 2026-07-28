@@ -1,0 +1,18 @@
+# Python
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/**/*.pyc
+
+# Embeddings / Generated files
+backend/embeddings/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
