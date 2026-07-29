@@ -2,7 +2,7 @@ import profile from "../assets/images/profile.jpeg";
 
 function Hero() {
   return (
-    <section className="min-h-screen px-6 sm:px-10 py-12">
+    <section className="min-h-screen px-6 sm:px-10">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-8">
         {/* Left */}
         <div className="w-full lg:w-1/2">
