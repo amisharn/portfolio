@@ -25,7 +25,7 @@ function Hero() {
 
         {/* Right */}
         <div className="w-full lg:w-1/2 mt-0 lg:mt-50">
-          <p className="-rotate-6 font-abramo text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-[0.2em] sm:tracking-[0.3em] text-gray-400 mt-8 lg:mt-16 mb-8 lg:mb-8 mb-8">
+          <p className="-rotate-6 font-abramo text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-[0.2em] sm:tracking-[0.3em] text-gray-400 mt-8 lg:mt-16 mb-8 lg:mb-20 mb-8">
             About Me
           </p>
 
