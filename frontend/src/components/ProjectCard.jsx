@@ -19,7 +19,7 @@ function Project({
           {title}
         </h3>
 
-        <p className="text-lg sm:text-xl lg:text-2xl mt-3 sm:mt-4 mb-6 sm:mb-10 lg:mb-16 text-gray-400">
+        <p className="text-lg sm:text-xl lg:text-2xl mt-3 sm:mt-4 mb-6 sm:mb-10 lg:mb-10 text-gray-400">
           {subtitle}
         </p>
 

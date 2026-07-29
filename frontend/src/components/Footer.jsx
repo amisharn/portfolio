@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="px-6 sm:px-10 py-12 sm:py-16 lg:py-24 border-t border-zinc-700">
-      <h2 className="font-abramo text-4xl sm:text-5xl md:text-6xl lg:text-8xl -rotate-6 inline-block text-gray-400 mb-8 sm:mb-12 lg:mb-16">
+      <h2 className="font-abramo text-4xl sm:text-5xl md:text-6xl lg:text-6xl -rotate-6 inline-block text-gray-400 mb-8 sm:mb-12 lg:mb-16">
         Get in Touch!
       </h2>
 
