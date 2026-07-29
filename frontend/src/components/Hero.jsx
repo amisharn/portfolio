@@ -6,7 +6,7 @@ function Hero() {
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-8">
         {/* Left */}
         <div className="w-full lg:w-1/2">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal tracking-[-0.05em] leading-none mt-4 sm:mt-8 mb-6 sm:mb-8">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal tracking-[-0.05em] leading-none mt-4 sm:mt-8 mb-1 sm:mb-8">
             amisha raj n.
           </h1>
 

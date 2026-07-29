@@ -13,7 +13,7 @@ function FloatingChatButton({ onClick }) {
         z-50
         h-14
         sm:h-16
-        lg:h-20
+        lg:h-16
         px-6
         sm:px-8
         lg:w-52
@@ -30,7 +30,7 @@ function FloatingChatButton({ onClick }) {
         hover:scale-105 
       "
     >
-      <span className="text-sm sm:text-lg lg:text-2xl text-cyan-400  whitespace-nowrap">
+      <span className="text-sm sm:text-lg lg:text-xl text-cyan-400  whitespace-nowrap">
         Ask Amisha
       </span>
     </button>
