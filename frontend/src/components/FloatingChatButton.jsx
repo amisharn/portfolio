@@ -1,13 +1,22 @@
-function FloatingChatButton() {
+function FloatingChatButton({ onClick }) {
   return (
     <button
+      onClick={onClick}
       className="
         fixed
-        bottom-8
-        right-8
+        bottom-4
+        right-4
+        sm:bottom-6
+        sm:right-6
+        lg:bottom-8
+        lg:right-8
         z-50
-        h-20
-        w-50
+        h-14
+        sm:h-16
+        lg:h-20
+        px-6
+        sm:px-8
+        lg:w-52
         flex
         items-center
         justify-center
@@ -18,10 +27,10 @@ function FloatingChatButton() {
         backdrop-blur-md
         transition-all
         duration-300
-        hover:scale-105
+        hover:scale-105 
       "
     >
-      <span className="text-2xl text-cyan-400 hover:text-white transition-colors">
+      <span className="text-sm sm:text-lg lg:text-2xl text-cyan-400  whitespace-nowrap">
         Ask Amisha
       </span>
     </button>

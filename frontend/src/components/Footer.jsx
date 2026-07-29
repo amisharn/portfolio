@@ -1,12 +1,12 @@
 function Footer() {
   return (
-    <footer className="px-10 py-24 border-t border-zinc-700 ">
-      <h2 className="font-abramo text-8xl  -rotate-6 inline-block text-gray-400 mb-16">
+    <footer className="px-6 sm:px-10 py-12 sm:py-16 lg:py-24 border-t border-zinc-700">
+      <h2 className="font-abramo text-4xl sm:text-5xl md:text-6xl lg:text-8xl -rotate-6 inline-block text-gray-400 mb-8 sm:mb-12 lg:mb-16">
         Get in Touch!
       </h2>
 
       <div className="flex flex-col justify-between items-start">
-        <div className="flex gap-10 mb-8 text-xl">
+        <div className="flex flex-wrap gap-6 sm:gap-8 lg:gap-10 mb-6 sm:mb-8 text-base sm:text-lg lg:text-xl">
           <a
             href="https://github.com/amisharn"
             target="_blank"
@@ -33,7 +33,6 @@ function Footer() {
           >
             X
           </a>
-
           <a
             href="mailto:niroulaamisharaj@gmail.com"
             className="hover:text-cyan-400 transition-colors"
@@ -41,7 +40,9 @@ function Footer() {
             Email
           </a>
         </div>
-        <p className="text-zinc-500 text-lg">© 2026 Amisha Raj Niroula</p>
+        <p className="text-zinc-500 text-sm sm:text-base lg:text-lg">
+          © 2026 Amisha Raj Niroula
+        </p>
       </div>
     </footer>
   );
