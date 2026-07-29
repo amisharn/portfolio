@@ -17,9 +17,9 @@ function Hero() {
           <img
             src={profile}
             alt="Amisha Raj"
-            width={400}
-            height={450}
-            className="mt-8 w-full max-w-[400px] max-h-[450px] h-auto object-cover"
+            width={260}
+            height={300}
+            className="mt-8 w-full max-w-[260px] max-h-[300px] h-auto object-cover"
           />
         </div>
 
