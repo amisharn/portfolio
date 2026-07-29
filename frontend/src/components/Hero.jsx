@@ -19,12 +19,12 @@ function Hero() {
             alt="Amisha Raj"
             width={500}
             height={560}
-            className="mt-8 w-full max-w-[500px] max-h-[560px] h-auto object-cover"
+            className="mt-1 w-full max-w-[500px] max-h-[560px] h-auto object-cover"
           />
         </div>
 
         {/* Right */}
-        <div className="w-full lg:w-1/2 mt-0 lg:mt-30">
+        <div className="w-full lg:w-1/2 mt-0 lg:mt-50">
           <p className="-rotate-6 font-abramo text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-[0.2em] sm:tracking-[0.3em] text-gray-400 mt-8 lg:mt-16 mb-8 lg:mb-8 mb-8">
             About Me
           </p>
