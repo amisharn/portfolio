@@ -106,7 +106,8 @@ function Chatbot({ isOpen, onClose }) {
         lg:right-8
         lg:w-[500px]
 
-        mb-20
+        mb-10
+        lg:mb-20
         
 
         h-[65vh]
