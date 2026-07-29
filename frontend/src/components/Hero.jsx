@@ -2,7 +2,7 @@ import profile from "../assets/images/profile.jpeg";
 
 function Hero() {
   return (
-    <section className="min-h-screen px-6 sm:px-10 ">
+    <section className="min-h-screen px-6 sm:px-10 py-12">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-8">
         {/* Left */}
         <div className="w-full lg:w-1/2">
@@ -17,15 +17,15 @@ function Hero() {
           <img
             src={profile}
             alt="Amisha Raj"
-            width={260}
-            height={300}
-            className="mt-8 w-full max-w-[260px] max-h-[300px] h-auto object-cover"
+            width={500}
+            height={560}
+            className="mt-8 w-full max-w-[500px] max-h-[560px] h-auto object-cover"
           />
         </div>
 
         {/* Right */}
         <div className="w-full lg:w-1/2">
-          <p className="-rotate-6 font-abramo text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-[0.2em] sm:tracking-[0.3em] text-gray-400 mt-8 lg:mt-16 mb-8 lg:mb-8 mb-16">
+          <p className="-rotate-6 font-abramo text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-[0.2em] sm:tracking-[0.3em] text-gray-400 mt-8 lg:mt-16 mb-8 lg:mb-8 mb-8">
             About Me
           </p>
 
