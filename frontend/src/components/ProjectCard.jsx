@@ -9,7 +9,7 @@ function Project({
   demo,
 }) {
   return (
-    <section className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 mt-20 sm:mt-32 lg:mt-40">
+    <section className="flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 mt-20 sm:mt-32 lg:mt-20">
       <div className="lg:col-span-5">
         <p className="text-3xl sm:text-4xl lg:text-4xl text-cyan-400 mb-4 sm:mb-6 mt-4 sm:mt-8">
           {number}
@@ -27,7 +27,7 @@ function Project({
           {description}
         </p>
 
-        <p className="text-white text-lg sm:text-xl lg:text-2xl mt-6 sm:mt-10 lg:mt-16">
+        <p className="text-white text-lg sm:text-xl lg:text-xl mt-6 sm:mt-10 lg:mt-16">
           {tech}
         </p>
         <div className="mt-6 sm:mt-10 flex flex-wrap gap-6 sm:gap-10">
