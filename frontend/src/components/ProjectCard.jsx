@@ -35,7 +35,7 @@ function Project({
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg sm:text-xl lg:text-2xl hover:text-white text-cyan-400 transition-colors"
+            className="text-lg sm:text-xl lg:text-xl hover:text-white text-cyan-400 transition-colors"
           >
             view on gitHub
           </a>
@@ -44,7 +44,7 @@ function Project({
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white text-cyan-400 transition-colors text-lg sm:text-xl lg:text-2xl"
+              className="hover:text-white text-cyan-400 transition-colors text-lg sm:text-xl lg:text-xl"
             >
               visit live demo
             </a>

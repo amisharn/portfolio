@@ -6,9 +6,9 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-screen px-6 sm:px-10 py-12 sm:py-16 lg:py-24"
+      className="min-h-screen px-6 sm:px-10 py-12 sm:py-16 lg:py-16"
     >
-      <p className="font-abramo text-5xl sm:text-6xl md:text-7xl lg:text-7xl -rotate-6 inline-block text-gray-400 mb-6">
+      <p className="font-abramo text-5xl sm:text-6xl md:text-7xl lg:text-7xl -rotate-6 inline-block text-gray-400 ">
         Selected Works
       </p>
 
